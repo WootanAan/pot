@@ -1,0 +1,69 @@
+* {
+	margin: 0;
+	position: absolute;
+}
+
+body {
+	height: 90vh;
+	width: 100vw;
+	background: #80FF80;
+}
+
+:root{
+	--pot: #000340;
+}
+
+#canvas {
+	height: 50vmin;
+	width: 50vmin;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border: 2vmin solid var(--pot);
+	border-radius: 50% 50% 0 0;
+	overflow: hidden;
+}
+
+#bawah {
+	width: 70vmin;
+	height: 50vmin;
+	background: var(--pot);
+	top: 35vmin;
+}
+
+#tanah {
+	width: 50vmin;
+	height: 3vmin;
+	background: green;
+	top: 33vmin;
+	border-radius: 1.5vmin 1.5vmin 0 0;
+}
+
+#daun {
+	width: 15vmin;
+	height: 15vmin;
+	background: #00BF00;
+	top: 19vmin;
+	left: 12vmin;
+	border-radius: 0 90%;
+	transform: rotate(15deg);
+}
+
+#daunMuda {
+	width: 10vmin;
+	height: 10vmin;
+	background: #00FF00;
+	top: 25vmin;
+	left: 23vmin;
+	border-radius: 100% 0;
+}
+
+#bunga {
+	width: 15vmin;
+	height: 15vmin;
+	background: linear-gradient(to left bottom, #FFBFBF, #FF8080);
+	top: 17.5vmin;
+	left: 17.5vmin;
+	border-radius: 70% 0;
+	transform: rotate(-45deg);
+}
